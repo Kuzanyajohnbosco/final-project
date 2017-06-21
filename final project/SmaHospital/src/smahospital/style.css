@@ -1,0 +1,227 @@
+/*
+#AnchorPane{
+   -fx-background-color:transparent;  
+}
+*/
+
+.welcome-text {
+   -fx-font-size: 28px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.accodionItem{
+   -fx-font-size: 20px;
+   -fx-font-family: "Algerian";
+   -fx-text-fill: blue;
+   -fx-font-weight: bold;
+}
+
+.welcome{
+    -fx-background-color: white;
+}
+
+.menubar{
+-fx-background-color: black;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    
+}
+
+.toolbar{
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.anchor{
+    -fx-background-image: url("background.jpg");   
+    -fx-background-color:  linear-gradient(gray,DimGrey );
+}
+
+.loginroot{
+    -fx-background-image: url("background.jpg");   
+    -fx-background-color:  linear-gradient(gray,DimGrey );
+}
+
+.loginpane{   
+    -fx-background-color:  linear-gradient(lightgray, gray);
+    -fx-border-color: white;
+    -fx-border-radius: 20;
+    -fx-padding: 10 10 10 10;
+    -fx-background-radius: 20;
+}
+
+.welcome{
+   -fx-font-size: 20px;
+   -fx-font-family: "Arial";
+}
+
+#loginbutton{
+    -fx-pref-width:120px;
+    -fx-font-size:20px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+/*
+.loginlabel {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+*/
+#titledPane{
+  
+}
+
+#clickme{
+    color: blue;
+    
+}
+.imagePane{
+    -fx-background-color:white; 
+    -fx-border: 12px solid transparent; 
+    -fx-border-color: black; 
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.tabPane{ 
+    -fx-border: 1px solid;
+    -fx-border-color: gray; 
+}
+
+.regstudimage{
+    -fx-background-color:white; 
+    -fx-border: 15px solid; 
+    -fx-border-color:blue; 
+}
+
+
+#leftpanel{
+    -fx-background-color: white;
+}
+
+#leftinsidepane{
+     -fx-background-color:#ccc;
+    
+}
+#mainpanel{
+   -fx-background-color:transparent;
+    
+}
+
+.mypanel{
+ -fx-background-color: linear-gradient(to bottom, #f2f2f2, #d4d4d4);
+-fx-border: 12px solid; 
+-fx-border-color: white; 
+-fx-background-radius: 15.0;
+-fx-border-radius: 15.0;
+}
+
+.wrapperpanel{
+ /*-fx-background-color: linear-gradient(to bottom, #f2f2f2, #d4d4d4);*/
+-fx-border: 10px solid; 
+-fx-border-color: white; 
+-fx-background-radius: 10.0;
+-fx-border-radius: 10.0;
+}timeLabel{
+    -fx-font-weight:bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-font-family: "Sanserif";
+}
+
+.button{
+ -fx-font-size: 14px;
+-fx-text-fill: white;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-border: 12px solid;
+-fx-border-color: white;
+-fx-background-radius: 15.0;
+-fx-border-radius: 15.0;
+    
+/*
+-fx-background-color: linear-gradient(to bottom, #f2f2f2, #d4d4d4);
+-fx-border: 12px solid; 
+-fx-border-color: white; 
+-fx-background-radius: 15.0;
+-fx-border-radius: 15.0;*/
+}
+.button:hover{
+   -fx-text-fill: blue;
+}
+.button:pressed{
+   -fx-text-fill: red;    
+}
+
+.mytab{
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 )    
+}
+
+.mytab:hover{
+    -fx-text-fill: blue; 
+   -fx-font-size: 18px;
+}
+
+.anchor{
+   
+}
+
+.markpane{
+     -fx-background-color:#cc9900;     
+}
+
+.mylabel {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+/*
+.mylabel{
+-fx-fill: FIREBRICK;
+-fx-font-weight:normal;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+-fx-font-size: 16px;
+
+}*/
+
+.result_label{
+-fx-font-weight:bold;
+-fx-font-size: 16px;
+-fx-text-fill: blue;
+-fx-font-family: "Arial";
+}
+
+.result_label2{
+-fx-font-weight:bold;
+-fx-font-size: 16px;
+-fx-text-fill: red;
+-fx-font-family: "Arial";
+}
+
+
+
+#panel_header{
+ -fx-font-size: 24px;
+-fx-font-family: "Arial Black";
+-fx-fill: #818181;
+-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    
+}
+/*
+Stage stage=(Stage)btn_editGrade.getScene().getWindow();
+                 stage.close();
+                 
+                 */
