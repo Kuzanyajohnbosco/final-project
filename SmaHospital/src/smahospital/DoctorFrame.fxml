@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="900.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smahospital.DoctorFrameController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="7.0" layoutY="27.0" prefHeight="449.0" prefWidth="333.0" styleClass="mypanel">
+         <children>
+            <Label layoutX="22.0" layoutY="355.0" text="Service" />
+            <TextField fx:id="tf_username" layoutX="133.0" layoutY="216.0" prefHeight="25.0" prefWidth="180.0" />
+            <Label layoutX="21.0" layoutY="287.0" text="Password" />
+            <PasswordField fx:id="tf_passwordconfirm" layoutX="133.0" layoutY="315.0" prefHeight="25.0" prefWidth="180.0" />
+            <PasswordField fx:id="tf_password" layoutX="133.0" layoutY="283.0" prefHeight="25.0" prefWidth="180.0" />
+            <Label layoutX="22.0" layoutY="221.0" text="Name" />
+            <Label layoutX="21.0" layoutY="319.0" text="Confirm Password" />
+            <Button fx:id="btn_saveDoctor" layoutX="223.0" layoutY="393.0" mnemonicParsing="false" onAction="#btn_saveUserClicked" prefHeight="34.0" prefWidth="83.0" text="Save" />
+            <Label alignment="CENTER" layoutX="8.0" layoutY="8.0" prefHeight="25.0" prefWidth="319.0" text="DOCTOR REGISTRATION PANEL">
+               <font>
+                  <Font name="SansSerif Bold" size="15.0" />
+               </font>
+            </Label>
+            <Separator layoutX="7.0" layoutY="38.0" prefHeight="1.0" prefWidth="319.0" />
+            <Button fx:id="btn_UpdateDoctor" layoutX="131.0" layoutY="395.0" mnemonicParsing="false" onAction="#btn_UpdateDoctorClicked" prefHeight="32.0" prefWidth="76.0" text="Edit" />
+            <Label fx:id="doctorId" layoutX="133.0" layoutY="187.0" prefHeight="17.0" prefWidth="76.0" />
+            <ImageView fx:id="doc_img" fitHeight="150.0" fitWidth="148.0" layoutX="11.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/users-icon.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="tf_imageUrl" layoutX="169.0" layoutY="50.0" />
+            <Button fx:id="btn_addImage" layoutX="191.0" layoutY="78.0" mnemonicParsing="false" onAction="#btn_addImage_clicked" prefHeight="28.0" prefWidth="96.0" text="Attach image" />
+            <ComboBox fx:id="service_combo" layoutX="131.0" layoutY="353.0" prefHeight="25.0" prefWidth="180.0" promptText="select service" />
+            <Label layoutX="22.0" layoutY="254.0" text="login Name" />
+            <TextField fx:id="tf_loginname" layoutX="133.0" layoutY="250.0" prefHeight="25.0" prefWidth="180.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="349.0" layoutY="23.0" prefHeight="457.0" prefWidth="540.0" styleClass="wrapperpanel">
+         <children>
+            <Pane layoutX="4.0" layoutY="4.0" prefHeight="449.0" prefWidth="532.0" styleClass="mypanel">
+               <children>
+                  <TableView fx:id="table_doctors" layoutX="10.0" layoutY="58.0" prefHeight="377.0" prefWidth="514.0" />
+                  <Label alignment="CENTER" layoutX="6.0" layoutY="13.0" prefHeight="25.0" prefWidth="514.0" text="REGISTERED DOCTORS">
+                     <font>
+                        <Font name="SansSerif Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="10.0" layoutY="45.0" prefHeight="3.0" prefWidth="514.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
